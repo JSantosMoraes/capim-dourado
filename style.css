@@ -65,22 +65,33 @@ nav{
     margin-top: 1%;
 }
 
-nav > a{
+ul{
+    list-style: none;
+    margin-left: -50px;
+
+}
+
+ul > li{
+    width: 120px;
+    display: inline-block;
+}
+
+nav > ul > li > a{
     color: #18272F;
     position: relative;
     text-decoration: none;
-    margin: 3%;
     padding-bottom: 3px;
-    font-weight: 500;
     font-weight: bold;
+    display: inline-block;
   }
 
-nav > a:hover{
+nav > ul > li > a:hover{
     color: rgb(218, 165, 32);
     transition: .5s;
+    display: inline-block;
 }
   
-nav > a::before {
+nav > ul > li > a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -92,14 +103,58 @@ nav > a::before {
     transform-origin: right;
     transform: scaleX(0);
     transition: transform .5s ease-in-out;
+    display: inline-block;
   }
   
-nav > a:hover::before {
+nav > ul > li > a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+    display: inline-block;
   }
 
   main > a > img{
     margin-top: 30px;
     width: 100%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481)
+  }
+
+  .dropdown-menu{
+    position: absolute;
+    padding: 15px 0px 0px 20px;
+    text-decoration: none;
+    font-weight: normal;
+    display: none;  
+  }
+
+  .dropdown-menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(218, 165, 32);
+    border-radius: 3px;
+    margin: -2px;
+  }
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+  #cat1:hover{
+    background-color: white;
+    color: rgb(218, 165, 32);
+    transition: .3s;
+  }
+
+  #cat2:hover{
+    background-color: white;
+    color: rgb(218, 165, 32);
+    transition: .3s;
+  }
+
+  #cat3:hover{
+    background-color: white;
+    color: rgb(218, 165, 32);
+    transition: .3s;
   }
