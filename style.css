@@ -14,8 +14,59 @@ body{
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    background-image: url('imagens/cordourada.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481);
+    padding: 4px;
+    margin-bottom: 20px;
+    text-align: center;
     
+}
+
+header > a{
+  margin-right: 8%;
+  margin-left: 8%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+
+header > a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 3;
+  background-color: rgb(218, 165, 32);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+  display: inline-block;
+}
+
+header > a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 3;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s ease-in-out;
+  display: inline-block;
+}
+
+header > a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  display: inline-block;
 }
 
 h1{
@@ -115,7 +166,7 @@ nav > ul > li > a:hover::before {
   main > a > img{
     margin-top: 30px;
     width: 100%;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481)
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481);
   }
 
   .dropdown-menu{
@@ -132,7 +183,7 @@ nav > ul > li > a:hover::before {
     text-decoration: none;
     width: 100%;
     padding: 20px;
-    background-color: rgb(218, 165, 32);
+    background-color: #F4D65E ;
     border-radius: 3px;
     margin: -2px;
   }
@@ -143,7 +194,7 @@ nav > ul > li > a:hover::before {
 
   #cat1:hover{
     background-color: white;
-    color: rgb(218, 165, 32);
+    color: #F4D65E;
     transition: .3s;
   }
 
@@ -157,4 +208,10 @@ nav > ul > li > a:hover::before {
     background-color: white;
     color: rgb(218, 165, 32);
     transition: .3s;
+  }
+
+  footer > p{
+    text-align: center;
+    margin-top: 220px;
+    padding-bottom: 20px;
   }
