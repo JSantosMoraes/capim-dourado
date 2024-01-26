@@ -8,7 +8,7 @@
 body{
     background-color: rgb(255, 255, 255);
     font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
-    height: 800px;
+    height: 100vh;
     margin: 0;
 
 }
@@ -30,7 +30,7 @@ img#whata{
 }
 
 header{
-    height: 4%;
+    height: 5%;
     background-image: url('imagens/cordourada.avif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,12 +102,10 @@ hr{
     position: relative;
             top: 1px;
             border: none;
-            height: 7px;
-            background-image: url('imagens/cordourada.avif');
-            background-repeat: no-repeat;
-            background-size: cover;
-            margin-bottom: 40px;
-            width: 100%;
+            height: 0.5px;
+            background-color: #18272f58;
+            margin-bottom: 20px;
+            width: 60%;
 }
 
 #frase{
@@ -124,8 +122,8 @@ hr{
 
 nav{
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 40px;
+    margin-top: 0%;
+    margin-bottom: 10px;
 }
 
 ul{
@@ -143,7 +141,7 @@ nav > ul > li > a{
     color: #18272F;
     position: relative;
     text-decoration: none;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
     font-weight: normal;
     display: inline-block;
   }
@@ -181,44 +179,6 @@ nav > ul > li > a:hover::before {
     width: 92%;
     border-radius: 5px;
     box-shadow : 1px 1px 6px rgba(0, 0, 0, 0.252);
-    margin-bottom: 6%;
-  }
-
-  section {
-    background-image: url('imagens/cordourada.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 92%;
-    height: 40vh;
-    margin-left: 4%;
-    border-radius: 5px;
-    box-shadow : inset 1px 1px 6px rgba(0, 0, 0, 0.323);
-  }
-
-  section > h2{
-    margin-left: 3%;
-    padding-top: 40px;
-    color: rgb(255, 255, 255);
-    font-size: calc(0.8em + 1.0vw);  
-  }
-
-  section > p{
-    margin-left: 3%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    color: rgb(255, 255, 255);
-    font-size: calc(0.5em + 0.7vw);
-  }
-
-  section > a{
-    margin-left: 3%;
-    background-color: #ffffff;
-    padding: 2vh;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #F4D65E;
-    font-weight: bold;
-    font-size: calc(0.5em + 0.7vw);
   }
 
   .dropdown-menu{
@@ -262,8 +222,15 @@ nav > ul > li > a:hover::before {
     transition: .3s;
   }
 
+  footer{
+    background-image: url('imagens/cordourada.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   footer > p{
     text-align: center;
     margin-top: 220px;
-    padding-bottom: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
   }
