@@ -9,14 +9,118 @@ Telas Grandes: 1200px a cima
 
 */
 
-@media screen and (min-width: 600px) and (max-width: 768px) { /*Tablet*/
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    /*Tablet*/
+
+    h1 {
+        text-align: center;
+        color: rgb(218, 165, 32);
+        margin: 0px;
+        padding: 0px;
+        font-weight: bolder;
+        font-size: 2em;
+        font-family: 'Bad Script', Courier, monospace;
+
+    }
+
+    #frase {
+        text-align: center;
+        width: 80%;
+        color: rgb(218, 165, 32);
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: normal;
+        font-size: 0.8em;
+        font-family: 'Red Hat Display' Arial, Helvetica, sans-serif;
+    }
+
+    ul>li {
+        width: 110px;
+        font-size: 0.9em;
+        display: inline-block;
+    }
+
+    main>a>img {
+        margin: auto;
+        display: none;
+        width: 92%;
+        border-radius: 2px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+    }
+
+    main>a#destaque2>img {
+        display: block;
+        margin-top: 5%;
+    }
+
+    footer>p {
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 30%;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /*Desktop*/
+
+    h1 {
+        text-align: center;
+        color: rgb(218, 165, 32);
+        margin: 0px;
+        padding: 0px;
+        font-weight: bolder;
+        font-size: 2em;
+        font-family: 'Bad Script', Courier, monospace;
+
+    }
+
+    #frase {
+        text-align: center;
+        width: 80%;
+        color: rgb(218, 165, 32);
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: normal;
+        font-size: 0.8em;
+        font-family: 'Red Hat Display' Arial, Helvetica, sans-serif;
+    }
+
+    ul>li {
+        width: 110px;
+        font-size: 0.9em;
+        display: inline-block;
+    }
+
+    main>a>img {
+        margin: auto;
+        margin-top: 3%;
+        display: block;
+        width: 92%;
+        border-radius: 2px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+    }
+
+    main>a#destaque2>img {
+        display: none;
+    }
+
+    footer>p {
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 23%;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+    }
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
+@media screen and (min-width: 1200px) {
+    /*Telas Grandes*/
 
-}
 
-@media screen and (min-width: 1200px){ /*Telas Grandes*/
-    
 }
