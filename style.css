@@ -19,16 +19,21 @@ html {
   font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
 }
 
-img#whata {
+a#whata {
   position: fixed;
   right: 2%;
   bottom: 5%;
-  width: 50px;
+  width: 40px;
+  height: 40px;
   padding: 5px;
   border-radius: 80px;
 
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481);
   background-color: white;
+  background-image: url('imagens/ווטסאפ_לוגו.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
@@ -95,7 +100,7 @@ hr {
 
 menu {
   text-align: center;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 10px;
 }
 
@@ -195,8 +200,8 @@ footer {
 footer>p {
   font-size: 0.5em;
   text-align: center;
-  margin-top: 40%;
+  margin-top: 41%;
   padding: 15px;
-  
+
   color: rgb(0, 0, 0);
 }
