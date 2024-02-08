@@ -9,9 +9,244 @@ Telas Grandes: 1200px a cima
 
 */
 
+@media screen and (max-width: 600px) {
+
+    /*Mobile*/
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body,
+    html {
+        height: 730px;
+    }
+
+    section#item1 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 13%;
+    }
+
+    section#item1>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item1>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item1>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item1>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item1>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item1>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item2*/
+
+    section#item2 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 52%;
+    }
+
+    section#item2>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item2>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item2>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item2>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item2>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item3*/
+
+    section#item3 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 13%;
+        margin-top: 71%;
+    }
+
+    section#item3>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item3>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item3>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item3>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item3>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item3>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item4*/
+
+    section#item4 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 52%;
+        margin-top: 71%;
+    }
+
+    section#item4>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item4>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item4>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item4>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item4>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item4>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+
+}
+
 @media screen and (min-width: 600px) and (max-width: 992px) {
 
     /*Tablet*/
+
+    body,
+    html {
+        height: 800px;
+    }
 
     h1 {
         text-align: center;
@@ -66,10 +301,234 @@ Telas Grandes: 1200px a cima
 
         color: rgb(0, 0, 0);
     }
+
+    section#item1 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        width: 170px;
+        padding: 10px;
+        left: 14%;
+    }
+
+    section#item1>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item1>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item1>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item1>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item1>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item1>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item2*/
+
+    section#item2 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        width: 170px;
+        padding: 10px;
+        left: 52%;
+    }
+
+    section#item2>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item2>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item2>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item2>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item2>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item3*/
+
+    section#item3 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        width: 170px;
+        left: 14%;
+        margin-top: 45%;
+    }
+
+    section#item3>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item3>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item3>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item3>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item3>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item3>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item4*/
+
+    section#item4 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        width: 170px;
+        left: 52%;
+        margin-top: 45%;
+    }
+
+    section#item4>a>img {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    section#item4>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item4>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item4>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item4>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item4>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /*Desktop*/
+
+    body,
+    html {
+        height: 920px;
+    }
 
     h1 {
         text-align: center;
@@ -121,8 +580,224 @@ Telas Grandes: 1200px a cima
         text-align: center;
         margin-top: 9%;
         padding: 15px;
-        
+
         color: rgb(0, 0, 0);
+    }
+
+    section#item1 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        width: 250px;
+        padding: 10px;
+        left: 25%;
+    }
+
+    section#item1>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item1>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item1>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item1>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item1>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item1>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item2*/
+
+    section#item2 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        width: 250px;
+        padding: 10px;
+        left: 52%;
+    }
+
+    section#item2>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item2>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item2>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item2>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item2>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item3*/
+
+    section#item3 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        width: 250px;
+        left: 25%;
+        margin-top: 29%;
+    }
+
+    section#item3>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item3>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item3>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item3>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item3>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item3>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item4*/
+
+    section#item4 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        width: 250px;
+        left: 52%;
+        margin-top: 29%;
+    }
+
+    section#item4>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item4>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item4>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item4>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item4>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item4>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
     }
 
 }
@@ -130,6 +805,11 @@ Telas Grandes: 1200px a cima
 @media screen and (min-width: 1200px) {
     /*Telas Grandes*/
 
+    body,
+    html {
+        height: 950px;
+    }
+
     h1 {
         text-align: center;
         margin: 0px;
@@ -180,8 +860,224 @@ Telas Grandes: 1200px a cima
         text-align: center;
         margin-top: 9%;
         padding: 15px;
-        
+
         color: rgb(0, 0, 0);
+    }
+
+    section#item1 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+        left: 25%;
+    }
+
+    section#item1>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item1>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item1>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item1>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item1>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item1>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item2*/
+
+    section#item2 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+        left: 52%;
+    }
+
+    section#item2>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item2>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item2>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item2>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item2>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item3*/
+
+    section#item3 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        width: 300px;
+        left: 25%;
+        margin-top: 29%;
+    }
+
+    section#item3>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item3>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item3>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item3>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item3>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item3>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
+    }
+
+    /*Item4*/
+
+    section#item4 {
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        width: 300px;
+        left: 52%;
+        margin-top: 29%;
+    }
+
+    section#item4>a>img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    section#item4>h2.titulo {
+        font-size: 1em;
+        margin-bottom: 3px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#item4>h3.preco {
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+
+    section#item4>p.cartao {
+        font-weight: lighter;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+
+    section#item4>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#item4>a.botao:hover {
+        background-color: white;
+        color: green;
+        transition: .3s;
+        border: 0.5px solid rgba(0, 0, 0, 0.500);
     }
 
 }
