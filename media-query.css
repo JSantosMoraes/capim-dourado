@@ -154,7 +154,7 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 13%;
+        left: 10%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -177,7 +177,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item1>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -208,7 +208,7 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 52%;
+        right: 10%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -231,7 +231,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item2>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -262,8 +262,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 13%;
-        margin-top: 71%;
+        left: 9%;
+        margin-top: 75%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -286,7 +286,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item3>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -317,8 +317,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 52%;
-        margin-top: 71%;
+        right: 9%;
+        margin-top: 75%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -341,7 +341,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item4>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
