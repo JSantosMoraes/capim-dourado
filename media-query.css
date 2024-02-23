@@ -21,71 +21,123 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 800px;
+        height: 1500px;
     }
 
     .dropdown:hover .dropdown-menu {
         display: none;
     }
 
-    section#promocao {
+    /*Promoção1*/
+
+    section#promocao1 {
+        width: 270px;
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.400);
-        border-radius: 1px;
-        width: 80%;
+        border-radius: 5px;
         padding: 10px;
-        left: 30px;
+        left: 12%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
-    section#promocao>a>img {
+    section#promocao1>a>img {
         display: block;
-        width: 150px;
+        width: 200px;
         margin: auto;
     }
 
-    section#promocao>h2.titulo {
-        font-size: 1.2em;
-        margin-bottom: 3px;
+    section#promocao1>h2.titulo {
         text-align: center;
+        font-size: 0.9em;
         border-top: 0.5px solid rgba(0, 0, 0, 0.300);
         padding: 10px 0px;
     }
 
-    section#promocao>h3.preco {
-        font-weight: normal;
+    section#promocao1>h3.preco {
         text-align: center;
-        font-size: 1em;
+        font-weight: normal;
+        font-size: 0.8em;
         margin-bottom: 3px;
     }
 
-    section#promocao>p.cartao {
-        font-weight: 300;
+    section#promocao1>p.cartao {
         text-align: center;
-        margin-bottom: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
         font-size: 0.8em;
     }
 
-    section#promocao>a.botao {
+    section#promocao1>a.botao {
         text-decoration: none;
         color: white;
         background-color: green;
         padding: 7px;
         border-radius: 50px;
-        font-size: 0.8em;
+        font-size: 0.7em;
         text-align: center;
         display: block;
     }
 
-    section#promocao>a.botao:hover {
-        background-color: white;
-        color: green;
-        transition: .3s;
-        border: 0.5px solid rgba(0, 0, 0, 0.500);
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    section#promocao1>a>img:hover {
+        width: 205px;
+        transition: 0.3s;
     }
 
+    /*Promoção2*/
 
+    section#promocao2 {
+        width: 270px;
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 12%;
+        margin-top: 350px;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section#promocao2>a>img {
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+
+    section#promocao2>h2.titulo {
+        text-align: center;
+        font-size: 0.9em;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#promocao2>h3.preco {
+        text-align: center;
+        font-weight: normal;
+        font-size: 0.8em;
+        margin-bottom: 3px;
+    }
+
+    section#promocao2>p.cartao {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    section#promocao2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#promocao2>a>img:hover {
+        width: 205px;
+        transition: 0.3s;
+    }
 
     /*Item1*/
 
@@ -322,7 +374,7 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 800px;
+        height: 1500px;
     }
 
     h1 {
@@ -358,64 +410,116 @@ Telas Grandes: 1200px a cima
         margin-bottom: 3%;
     }
 
-    section#promocao {
+    /*Promoção1*/
+
+    section#promocao1 {
+        width: 270px;
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.400);
-        border-radius: 1px;
-        width: 80%;
+        border-radius: 5px;
         padding: 10px;
-        left: 50px;
+        left: 25vw;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
-    section#promocao>a>img {
+    section#promocao1>a>img {
         display: block;
-        width: 150px;
+        width: 200px;
         margin: auto;
     }
 
-    section#promocao>h2.titulo {
-        font-size: 1.2em;
-        margin-bottom: 3px;
+    section#promocao1>h2.titulo {
         text-align: center;
+        font-size: 0.9em;
         border-top: 0.5px solid rgba(0, 0, 0, 0.300);
         padding: 10px 0px;
     }
 
-    section#promocao>h3.preco {
-        font-weight: normal;
+    section#promocao1>h3.preco {
         text-align: center;
-        font-size: 1em;
+        font-weight: normal;
+        font-size: 0.8em;
         margin-bottom: 3px;
     }
 
-    section#promocao>p.cartao {
-        font-weight: 300;
+    section#promocao1>p.cartao {
         text-align: center;
-        margin-bottom: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
         font-size: 0.8em;
     }
 
-    section#promocao>a.botao {
+    section#promocao1>a.botao {
         text-decoration: none;
         color: white;
         background-color: green;
         padding: 7px;
         border-radius: 50px;
-        font-size: 0.8em;
+        font-size: 0.7em;
         text-align: center;
         display: block;
     }
 
-    section#promocao>a.botao:hover {
-        background-color: white;
-        color: green;
-        transition: .3s;
-        border: 0.5px solid rgba(0, 0, 0, 0.500);
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    section#promocao1>a>img:hover {
+        width: 205px;
+        transition: 0.3s;
     }
 
+    /*Promoção2*/
 
+    section#promocao2 {
+        width: 270px;
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 24%;
+        margin-top: 350px;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section#promocao2>a>img {
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+
+    section#promocao2>h2.titulo {
+        text-align: center;
+        font-size: 0.9em;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#promocao2>h3.preco {
+        text-align: center;
+        font-weight: normal;
+        font-size: 0.8em;
+        margin-bottom: 3px;
+    }
+
+    section#promocao2>p.cartao {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    section#promocao2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#promocao2>a>img:hover {
+        width: 205px;
+        transition: 0.3s;
+    }
 
     /*Item1*/
 
@@ -693,7 +797,7 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 920px;
+        height: 1700px;
     }
 
     h1 {
@@ -709,7 +813,7 @@ Telas Grandes: 1200px a cima
     }
 
     header {
-        height: 4%;
+        height: 37px;
     }
 
     #frase {
@@ -771,64 +875,116 @@ Telas Grandes: 1200px a cima
         margin-bottom: 3%;
     }
 
-    section#promocao {
+    /*Promoção1*/
+
+    section#promocao1 {
+        width: 570px;
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.400);
-        border-radius: 1px;
-        width: 80%;
+        border-radius: 5px;
         padding: 10px;
-        left: 90px;
+        left: 20%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
-    section#promocao>a>img {
+    section#promocao1>a>img {
         display: block;
         width: 300px;
         margin: auto;
     }
 
-    section#promocao>h2.titulo {
-        font-size: 1.2em;
-        margin-bottom: 3px;
+    section#promocao1>h2.titulo {
         text-align: center;
+        font-size: 0.9em;
         border-top: 0.5px solid rgba(0, 0, 0, 0.300);
         padding: 10px 0px;
     }
 
-    section#promocao>h3.preco {
-        font-weight: normal;
+    section#promocao1>h3.preco {
         text-align: center;
-        font-size: 1em;
+        font-weight: normal;
+        font-size: 0.8em;
         margin-bottom: 3px;
     }
 
-    section#promocao>p.cartao {
-        font-weight: 300;
+    section#promocao1>p.cartao {
         text-align: center;
-        margin-bottom: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
         font-size: 0.8em;
     }
 
-    section#promocao>a.botao {
+    section#promocao1>a.botao {
         text-decoration: none;
         color: white;
         background-color: green;
         padding: 7px;
         border-radius: 50px;
-        font-size: 0.8em;
+        font-size: 0.7em;
         text-align: center;
         display: block;
     }
 
-    section#promocao>a.botao:hover {
-        background-color: white;
-        color: green;
-        transition: .3s;
-        border: 0.5px solid rgba(0, 0, 0, 0.500);
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    section#promocao1>a>img:hover {
+        width: 305px;
+        transition: 0.3s;
     }
 
+    /*Promoção2*/
 
+    section#promocao2 {
+        width: 570px;
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        left: 20%;
+        margin-top: 450px;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section#promocao2>a>img {
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+
+    section#promocao2>h2.titulo {
+        text-align: center;
+        font-size: 0.9em;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#promocao2>h3.preco {
+        text-align: center;
+        font-weight: normal;
+        font-size: 0.8em;
+        margin-bottom: 3px;
+    }
+
+    section#promocao2>p.cartao {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    section#promocao2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#promocao2>a>img:hover {
+        width: 305px;
+        transition: 0.3s;
+    }
 
     /*Item1*/
 
@@ -1063,11 +1219,11 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 950px;
+        height: 1500px;
     }
 
     header {
-        height: 4%;
+        height: 40px;
     }
 
     h1 {
@@ -1142,63 +1298,116 @@ Telas Grandes: 1200px a cima
         margin-bottom: 3%;
     }
 
-    section#promocao {
+    /*Promoção1*/
+
+    section#promocao1 {
+        
+        width: 470px;
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.400);
-        border-radius: 1px;
-        width: 80%;
+        border-radius: 5px;
         padding: 10px;
-        left: 90px;
+        left: 4%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
-    section#promocao>a>img {
+    section#promocao1>a>img {
         display: block;
-        width: 350px;
+        width: 300px;
         margin: auto;
     }
 
-    section#promocao>h2.titulo {
-        font-size: 1.2em;
-        margin-bottom: 3px;
+    section#promocao1>h2.titulo {
         text-align: center;
+        font-size: 0.9em;
         border-top: 0.5px solid rgba(0, 0, 0, 0.300);
         padding: 10px 0px;
     }
 
-    section#promocao>h3.preco {
-        font-weight: normal;
+    section#promocao1>h3.preco {
         text-align: center;
-        font-size: 1em;
+        font-weight: normal;
+        font-size: 0.8em;
         margin-bottom: 3px;
     }
 
-    section#promocao>p.cartao {
-        font-weight: 300;
+    section#promocao1>p.cartao {
         text-align: center;
-        margin-bottom: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
         font-size: 0.8em;
     }
 
-    section#promocao>a.botao {
+    section#promocao1>a.botao {
         text-decoration: none;
         color: white;
         background-color: green;
         padding: 7px;
         border-radius: 50px;
-        font-size: 1em;
+        font-size: 0.7em;
         text-align: center;
         display: block;
     }
 
-    section#promocao>a.botao:hover {
-        background-color: white;
-        color: green;
-        transition: .3s;
-        border: 0.5px solid rgba(0, 0, 0, 0.500);
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    section#promocao1>a>img:hover {
+        width: 305px;
+        transition: 0.3s;
     }
 
+    /*Promoção2*/
+
+    section#promocao2 {
+        width: 470px;
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.400);
+        border-radius: 5px;
+        padding: 10px;
+        right: 4%;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section#promocao2>a>img {
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+
+    section#promocao2>h2.titulo {
+        text-align: center;
+        font-size: 0.9em;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+        padding: 10px 0px;
+    }
+
+    section#promocao2>h3.preco {
+        text-align: center;
+        font-weight: normal;
+        font-size: 0.8em;
+        margin-bottom: 3px;
+    }
+
+    section#promocao2>p.cartao {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    section#promocao2>a.botao {
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 7px;
+        border-radius: 50px;
+        font-size: 0.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section#promocao2>a>img:hover {
+        width: 305px;
+        transition: 0.3s;
+    }
 
 
     /*Item1*/
