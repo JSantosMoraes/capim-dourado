@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;900&display=swap');
+
 
 * {
   padding: 0;
@@ -11,12 +14,11 @@
 
 body,
 html {
-  height: 100vh;
   margin: 0;
   padding: 0;
 
   background-color: rgb(255, 255, 255);
-  font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 a#whata {
@@ -80,7 +82,7 @@ hr {
   top: 1px;
   border: none;
   height: 0.1px;
-  width: 50%;
+  width: 60%;
   margin: auto;
 
   background-color: #18272f58;
@@ -88,7 +90,7 @@ hr {
 
 #frase {
   text-align: center;
-  width: 80%;
+  width: 90%;
   font-size: 0.6em;
   margin: auto;
   padding-top: 10px;
@@ -113,14 +115,15 @@ ul {
 ul>li {
   display: inline-block;
   text-align: center;
-  width: 90px;
-  font-size: 0.8em;
+  width: 80px;
+  font-size: 0.7em;
 }
 
 menu>ul>li>a {
   display: inline-block;
   position: relative;
-  font-weight: normal;
+  font-weight: 500;
+  text-align: center;
 
   color: #18272F;
   text-decoration: none;
@@ -179,7 +182,7 @@ menu>ul>li>a:hover {
 main>a>img {
   display: none;
   margin: auto;
-  margin-top: 15%;
+  margin-top: 12%;
   width: 92%;
 
   border-radius: 2px;
@@ -188,21 +191,22 @@ main>a>img {
 
 main>a#destaque2>img {
   display: block;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
-footer {
-  background-image: url('imagens/cordourada.avif');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-footer>p {
-  font-size: 0.5em;
+h2#h2filtro {
+  font-weight: 400;
+  width: 150px;
+  font-size: 0.8em;
   text-align: center;
-  margin-top: 41%;
-  padding: 15px;
+  display: block;
+  margin: auto;
+  margin-top: 7%;
+}
 
-  color: rgb(0, 0, 0);
+hr#filtro {
+  margin-top: 2%;
+  width: 13%;
+  background-color: black;
+  margin-bottom: 3%;
 }
