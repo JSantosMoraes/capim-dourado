@@ -149,7 +149,7 @@ menu>ul>li>a:hover {
   display: block;
   width: 100%;
   padding: 20px;
-  margin: -2px;
+  margin-bottom: -2px;
 
   color: white;
   text-decoration: none;
@@ -195,8 +195,8 @@ main>a#destaque2>img {
 }
 
 h2#h2filtro {
-  font-weight: 400;
-  width: 150px;
+  font-weight: 500;
+  width: 100%;
   font-size: 0.8em;
   text-align: center;
   display: block;
@@ -204,9 +204,63 @@ h2#h2filtro {
   margin-top: 7%;
 }
 
-hr#filtro {
+h2#h2promo {
+  font-weight: 500;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+hr.filtro {
   margin-top: 2%;
   width: 13%;
   background-color: black;
   margin-bottom: 3%;
+}
+
+section#precos>a {
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 80%;
+  width: 43%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: absolute;
+
+  text-decoration: none;
+  color: #18272F;
+  border: 1px solid #18272F;
+  border-radius: 2px;
+}
+
+#ap20 {
+  left: 20px;
+}
+
+#at30 {
+  right: 20px;
+}
+
+#ap50 {
+  left: 20px;
+}
+
+#at50 {
+  right: 20px;
+}
+
+section#precos>a.baixo {
+  margin-top: 40px;
+}
+
+section#precos>a:hover {
+  transition: .3s;
+  color: rgb(218, 165, 32);
+  border: 1px solid rgb(218, 165, 32);
+  border-radius: 0px;
+  box-shadow: 0px 0px 4px #18272f50;
 }

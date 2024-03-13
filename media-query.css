@@ -36,7 +36,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 12%;
+        left: 50%;
+        transform: translate(-50%, 0);
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -91,7 +92,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 12%;
+        left: 50%;
+        transform: translate(-50%, 0);
         margin-top: 350px;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
@@ -394,7 +396,7 @@ Telas Grandes: 1200px a cima
     }
 
     h2#h2filtro {
-        font-weight: 400;
+        font-weight: 500;
         width: 150px;
         font-size: 1em;
         text-align: center;
@@ -413,12 +415,13 @@ Telas Grandes: 1200px a cima
     /*Promoção1*/
 
     section#promocao1 {
-        width: 270px;
+        width: 300px;
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 25vw;
+        left: 50%;
+        transform: translate(-50%, 0);
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -468,12 +471,13 @@ Telas Grandes: 1200px a cima
     /*Promoção2*/
 
     section#promocao2 {
-        width: 270px;
+        width: 300px;
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 24%;
+        left: 50%;
+        transform: translate(-50%, 0);
         margin-top: 350px;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
@@ -594,7 +598,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item1>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -650,7 +654,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item2>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -707,7 +711,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item3>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -764,7 +768,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item4>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -786,6 +790,16 @@ Telas Grandes: 1200px a cima
         transition: .3s;
         border: 0.5px solid rgba(0, 0, 0, 0.500);
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    h2#h2promo {
+        font-weight: 500;
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 120px;
     }
 
 
@@ -859,7 +873,7 @@ Telas Grandes: 1200px a cima
     }
 
     h2#h2filtro {
-        font-weight: 400;
+        font-weight: 500;
         width: 150px;
         font-size: 1.2em;
         text-align: center;
@@ -883,7 +897,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 20%;
+        left: 50%;
+        transform: translate(-50%, 0);
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -938,7 +953,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 20%;
+        left: 50%;
+        transform: translate(-50%, 0);
         margin-top: 450px;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
@@ -1018,7 +1034,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item1>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1074,7 +1090,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item2>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1131,7 +1147,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item3>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1188,7 +1204,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item4>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1212,6 +1228,37 @@ Telas Grandes: 1200px a cima
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     }
 
+    h2#h2promo {
+        font-weight: 500;
+        width: 100%;
+        font-size: 1.2em;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 130px;
+    }
+
+    section#precos>a {
+        width: 30%;
+    }
+
+    #ap20 {
+        left: 19%;
+    }
+
+    #at30 {
+        right: 19%;
+    }
+
+    #ap50 {
+        left: 19%;
+    }
+
+    #at50 {
+        right: 19%;
+    }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -1219,7 +1266,7 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 1500px;
+        height: 1700px;
     }
 
     header {
@@ -1282,9 +1329,9 @@ Telas Grandes: 1200px a cima
     }
 
     h2#h2filtro {
-        font-weight: 400;
+        font-weight: 500;
         width: 150px;
-        font-size: 1em;
+        font-size: 1.1em;
         text-align: center;
         display: block;
         margin: auto;
@@ -1307,7 +1354,7 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        left: 4%;
+        left: 6%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -1319,7 +1366,7 @@ Telas Grandes: 1200px a cima
 
     section#promocao1>h2.titulo {
         text-align: center;
-        font-size: 0.9em;
+        font-size: 1em;
         border-top: 0.5px solid rgba(0, 0, 0, 0.300);
         padding: 10px 0px;
     }
@@ -1327,7 +1374,7 @@ Telas Grandes: 1200px a cima
     section#promocao1>h3.preco {
         text-align: center;
         font-weight: normal;
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin-bottom: 3px;
     }
 
@@ -1362,7 +1409,7 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
-        right: 4%;
+        right: 6%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -1374,7 +1421,7 @@ Telas Grandes: 1200px a cima
 
     section#promocao2>h2.titulo {
         text-align: center;
-        font-size: 0.9em;
+        font-size: 1em;
         border-top: 0.5px solid rgba(0, 0, 0, 0.300);
         padding: 10px 0px;
     }
@@ -1382,7 +1429,7 @@ Telas Grandes: 1200px a cima
     section#promocao2>h3.preco {
         text-align: center;
         font-weight: normal;
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin-bottom: 3px;
     }
 
@@ -1441,7 +1488,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item1>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1496,7 +1543,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item2>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1552,7 +1599,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item3>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1608,7 +1655,7 @@ Telas Grandes: 1200px a cima
     }
 
     section#item4>p.cartao {
-        font-weight: lighter;
+        font-weight: 300;
         margin-bottom: 15px;
         font-size: 0.8em;
     }
@@ -1630,6 +1677,39 @@ Telas Grandes: 1200px a cima
         transition: .3s;
         border: 0.5px solid rgba(0, 0, 0, 0.500);
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    h2#h2promo {
+        font-weight: 500;
+        width: 100%;
+        font-size: 1.2em;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 130px;
+    }
+
+    section#precos>a {
+        width: 30%;
+        font-size: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #ap20 {
+        left: 19%;
+    }
+
+    #at30 {
+        right: 19%;
+    }
+
+    #ap50 {
+        left: 19%;
+    }
+
+    #at50 {
+        right: 19%;
     }
 
 }
