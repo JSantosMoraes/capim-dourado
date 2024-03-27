@@ -1342,7 +1342,6 @@ Telas Grandes: 1200px a cima
         margin-top: 2%;
         width: 17%;
         background-color: black;
-        margin-bottom: 3%;
     }
 
     /*Promoção1*/
@@ -1686,7 +1685,7 @@ Telas Grandes: 1200px a cima
         text-align: center;
         display: block;
         margin: auto;
-        margin-top: 130px;
+        margin-top: 10%;
     }
 
     section#precos>a {
