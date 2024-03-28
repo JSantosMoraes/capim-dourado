@@ -153,7 +153,7 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px 5%;
-        left: 5%;
+        left: 4%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -207,7 +207,7 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px 5%;
-        right: 5%;
+        right: 4%;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -261,8 +261,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px 5%;
-        left: 5%;
-        margin-top: 75%;
+        left: 4%;
+        margin-top: 310px;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -316,8 +316,8 @@ Telas Grandes: 1200px a cima
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px 5%;
-        right: 5%;
-        margin-top: 75%;
+        right: 4%;
+        margin-top: 310px;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
