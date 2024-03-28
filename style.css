@@ -16,6 +16,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  height: 1320px;
 
   background-color: rgb(255, 255, 255);
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -124,6 +125,7 @@ menu>ul>li>a {
   position: relative;
   font-weight: 500;
   text-align: center;
+  transition: .3s ease;
 
   color: #18272F;
   text-decoration: none;
@@ -133,7 +135,6 @@ menu>ul>li>a:hover {
   display: inline-block;
 
   color: rgb(218, 165, 32);
-  transition: .3s;
 }
 
 .dropdown-menu {
@@ -184,14 +185,24 @@ main>a>img {
   margin: auto;
   margin-top: 12%;
   width: 92%;
+  transition: .3s ease;
 
   border-radius: 2px;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
 }
 
+main>a>img:hover {
+  width: 93%;
+}
+
 main>a#destaque2>img {
   display: block;
   margin-top: 5%;
+  transition: .3s ease;
+}
+
+main>a#destaque2>img:hover {
+  width: 93%;
 }
 
 h2#h2filtro {
@@ -235,6 +246,7 @@ section#precos>a {
   color: #18272F;
   border: 1px solid #18272F;
   border-radius: 2px;
+  transition: .3s ease;
 }
 
 #ap20 {
@@ -258,9 +270,37 @@ section#precos>a.baixo {
 }
 
 section#precos>a:hover {
-  transition: .3s;
   color: rgb(218, 165, 32);
   border: 1px solid rgb(218, 165, 32);
   border-radius: 0px;
   box-shadow: 0px 0px 4px #18272f50;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-image: url('imagens/cordourada.avif');
+  text-align: center;
+  top: 1340px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer>p {
+  background-color: rgba(255, 255, 255, 0.564);
+  width: 250px;
+  margin: auto;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+footer>p>a {
+  color: black;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+footer>p>a:hover {
+  font-size: 1.05em;
+  color: rgb(218, 165, 32);
 }
