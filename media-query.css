@@ -373,7 +373,7 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 1500px;
+        height: 1950px;
     }
 
     h1 {
@@ -802,24 +802,24 @@ Telas Grandes: 1200px a cima
     }
 
     footer {
-        position: absolute;
         width: 100%;
         background-image: url('imagens/cordourada.avif');
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
-        top: 1650px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        margin-top: 800px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.252);
+
     }
 
     footer>p {
-        background-color: rgba(255, 255, 255, 0.564);
         width: 250px;
         margin: auto;
         border-radius: 5px;
-        font-weight: 500;
-        font-size: .9em;
+        font-weight: 300;
+        font-size: 1.05em;
     }
 
     footer>p>a {
@@ -829,8 +829,57 @@ Telas Grandes: 1200px a cima
     }
 
     footer>p>a:hover {
-        font-size: 1.1em;
+        font-size: 1.06em;
         color: rgb(218, 165, 32);
+    }
+
+    section#pagfooter {
+        margin-top: 20px;
+    }
+
+    section#pagfooter>h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    section#pagfooter>hr {
+        height: 2px;
+        background-color: #F4D65E;
+        width: 17%;
+    }
+
+    section#pagfooter>img {
+        display: block;
+        margin: auto;
+        width: 150px;
+    }
+
+    section#confooter {
+        margin-top: 10px;
+    }
+
+    section#confooter>h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    section#confooter>hr {
+        height: 2px;
+        background-color: #F4D65E;
+        width: 17%;
+    }
+
+    section#confooter>i>img {
+        transform: translate(-450%, 0);
+        margin-top: 20px;
+        margin-left: 50%;
+        width: 20px;
+    }
+
+    section#confooter>p#redes {
+        display: inline-block;
+        transform: translate(-65%);
+        text-align: center;
     }
 
 
@@ -842,7 +891,7 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 1700px;
+        height: 2230px;
     }
 
     h1 {
@@ -1292,24 +1341,24 @@ Telas Grandes: 1200px a cima
     }
 
     footer {
-        position: absolute;
         width: 100%;
         background-image: url('imagens/cordourada.avif');
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
-        top: 1850px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        margin-top: 1000px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.252);
+
     }
 
     footer>p {
-        background-color: rgba(255, 255, 255, 0.564);
         width: 250px;
         margin: auto;
         border-radius: 5px;
-        font-weight: 500;
-        font-size: .9em;
+        font-weight: 300;
+        font-size: 1.05em;
     }
 
     footer>p>a {
@@ -1319,8 +1368,57 @@ Telas Grandes: 1200px a cima
     }
 
     footer>p>a:hover {
-        font-size: 1.1em;
+        font-size: 1.06em;
         color: rgb(218, 165, 32);
+    }
+
+    section#pagfooter {
+        margin-top: 20px;
+    }
+
+    section#pagfooter>h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    section#pagfooter>hr {
+        height: 2px;
+        background-color: #F4D65E;
+        width: 17%;
+    }
+
+    section#pagfooter>img {
+        display: block;
+        margin: auto;
+        width: 150px;
+    }
+
+    section#confooter {
+        margin-top: 10px;
+    }
+
+    section#confooter>h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    section#confooter>hr {
+        height: 2px;
+        background-color: #F4D65E;
+        width: 17%;
+    }
+
+    section#confooter>i>img {
+        transform: translate(-450%, 0);
+        margin-top: 20px;
+        margin-left: 50%;
+        width: 20px;
+    }
+
+    section#confooter>p#redes {
+        display: inline-block;
+        transform: translate(-65%);
+        text-align: center;
     }
 
 
@@ -1332,7 +1430,7 @@ Telas Grandes: 1200px a cima
 
     body,
     html {
-        height: 1450px;
+        height: 1820px;
     }
 
     header {
@@ -1780,24 +1878,24 @@ Telas Grandes: 1200px a cima
     }
 
     footer {
-        position: absolute;
         width: 100%;
         background-image: url('imagens/cordourada.avif');
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
-        top: 1450px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        margin-top: 550px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.252);
+
     }
 
     footer>p {
-        background-color: rgba(255, 255, 255, 0.564);
         width: 250px;
         margin: auto;
         border-radius: 5px;
-        font-weight: 500;
-        font-size: .9em;
+        font-weight: 300;
+        font-size: 1.05em;
     }
 
     footer>p>a {
@@ -1807,8 +1905,57 @@ Telas Grandes: 1200px a cima
     }
 
     footer>p>a:hover {
-        font-size: 1.1em;
+        font-size: 1.06em;
         color: rgb(218, 165, 32);
+    }
+
+    section#pagfooter {
+        margin-top: 20px;
+    }
+
+    section#pagfooter>h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    section#pagfooter>hr {
+        height: 2px;
+        background-color: #F4D65E;
+        width: 17%;
+    }
+
+    section#pagfooter>img {
+        display: block;
+        margin: auto;
+        width: 150px;
+    }
+
+    section#confooter {
+        margin-top: 10px;
+    }
+
+    section#confooter>h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    section#confooter>hr {
+        height: 2px;
+        background-color: #F4D65E;
+        width: 17%;
+    }
+
+    section#confooter>i>img {
+        transform: translate(-450%, 0);
+        margin-top: 20px;
+        margin-left: 50%;
+        width: 20px;
+    }
+
+    section#confooter>p#redes {
+        display: inline-block;
+        transform: translate(-65%);
+        text-align: center;
     }
 
 }

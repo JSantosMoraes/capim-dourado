@@ -16,7 +16,7 @@ body,
 html {
   margin: 0;
   padding: 0;
-  height: 1320px;
+  height: 1670px;
 
   background-color: rgb(255, 255, 255);
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -277,21 +277,21 @@ section#precos>a:hover {
 }
 
 footer {
-  position: absolute;
   width: 100%;
   background-image: url('imagens/cordourada.avif');
   text-align: center;
-  top: 1340px;
+  margin-top: 750px;
   padding-top: 10px;
   padding-bottom: 10px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.252);
+
 }
 
 footer>p {
-  background-color: rgba(255, 255, 255, 0.564);
   width: 250px;
   margin: auto;
   border-radius: 5px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 footer>p>a {
@@ -303,4 +303,53 @@ footer>p>a {
 footer>p>a:hover {
   font-size: 1.05em;
   color: rgb(218, 165, 32);
+}
+
+section#pagfooter {
+  margin-top: 20px;
+}
+
+section#pagfooter>h4 {
+  font-weight: 500;
+  text-align: center;
+}
+
+section#pagfooter>hr {
+  height: 2px;
+  background-color: #F4D65E;
+  width: 17%;
+}
+
+section#pagfooter>img {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+section#confooter {
+  margin-top: 10px;
+}
+
+section#confooter>h4 {
+  font-weight: 500;
+  text-align: center;
+}
+
+section#confooter>hr {
+  height: 2px;
+  background-color: #F4D65E;
+  width: 17%;
+}
+
+section#confooter>i>img {
+  transform: translate(-450%, 0);
+  margin-top: 20px;
+  margin-left: 50%;
+  width: 20px;
+}
+
+section#confooter>p#redes {
+  display: inline-block;
+  transform: translate(-65%);
+  text-align: center;
 }
