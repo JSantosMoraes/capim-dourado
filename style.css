@@ -22,7 +22,7 @@ html {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-a#whata {
+a.bwhatsapp {
   position: fixed;
   display: block;
   right: 4%;
@@ -34,7 +34,7 @@ a#whata {
 
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481);
   background-color: white;
-  background-image: url('imagens/ווטסאפ_לוגו.png');
+  background-image: url('imagens/iconewhatsapp.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -135,6 +135,7 @@ menu>ul>li>a:hover {
   display: inline-block;
 
   color: rgb(218, 165, 32);
+  transition: .3s ease;
 }
 
 .dropdown-menu {
@@ -162,6 +163,7 @@ menu>ul>li>a:hover {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  transition: .3s ease;
 }
 
 #cat1:hover {
@@ -207,7 +209,7 @@ main>a#destaque2>img:hover {
   width: 93%;
 }
 
-h2#h2filtro {
+h2#h2porvalor {
   font-weight: 500;
   width: 100%;
   font-size: 0.8em;
@@ -227,7 +229,7 @@ h2#h2promo {
   margin-top: 100px;
 }
 
-hr.filtro {
+hr.hrfiltro {
   margin-top: 2%;
   width: 13%;
   background-color: black;

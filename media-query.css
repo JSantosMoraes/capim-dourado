@@ -392,7 +392,7 @@ Telas Grandes: 1200px a cima
         display: none;
     }
 
-    h2#h2filtro {
+    h2#h2porvalor {
         font-weight: 500;
         width: 150px;
         font-size: 1em;
@@ -402,7 +402,7 @@ Telas Grandes: 1200px a cima
         margin-top: 7%;
     }
 
-    hr#filtro {
+    hr#hrfiltro {
         margin-top: 2%;
         width: 17%;
         background-color: black;
@@ -952,7 +952,7 @@ Telas Grandes: 1200px a cima
         color: rgb(0, 0, 0);
     }
 
-    h2#h2filtro {
+    h2#h2porvalor {
         font-weight: 500;
         width: 150px;
         font-size: 1.2em;
@@ -962,7 +962,7 @@ Telas Grandes: 1200px a cima
         margin-top: 7%;
     }
 
-    hr#filtro {
+    hr#hrfiltro {
         margin-top: 2%;
         width: 17%;
         background-color: black;
@@ -1205,7 +1205,8 @@ Telas Grandes: 1200px a cima
         padding: 10px;
         width: 250px;
         right: 51%;
-        margin-top: 320px;
+        margin-top: 320px
+        ;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -1492,7 +1493,7 @@ Telas Grandes: 1200px a cima
         color: rgb(0, 0, 0);
     }
 
-    h2#h2filtro {
+    h2#h2porvalor {
         font-weight: 500;
         width: 150px;
         font-size: 1.1em;
@@ -1502,7 +1503,7 @@ Telas Grandes: 1200px a cima
         margin-top: 5%;
     }
 
-    hr#filtro {
+    hr#hrfiltro {
         margin-top: 2%;
         width: 17%;
         background-color: black;
