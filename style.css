@@ -108,8 +108,8 @@ ul>li {
   display: inline-block;
   text-align: center;
   width: 80px;
-  margin: 0px 1vw;
-  font-size: 2vw;
+  margin: 0px 3vw;
+  font-size: 14px;
 }
 
 menu>ul>li>a {
@@ -220,7 +220,7 @@ a.aporvalor {
   margin: 5px;
   display: inline-block;
   text-align: center;
-  width: 250px;
+  width: 220px;
   color: #18272F;
   font-size: 0.9em;
   text-decoration: none;
