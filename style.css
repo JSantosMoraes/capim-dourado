@@ -24,6 +24,23 @@ body,html {
   height: 1970px;
 }
 
+a.bwhatsapp {
+  position: fixed;
+  display: block;
+  right: 4%;
+  bottom: 4%;
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481);
+  background-color: white;
+  background-image: url('imagens/iconewhatsapp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 header {
   display: flex;
   justify-content: center;
