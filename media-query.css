@@ -37,9 +37,20 @@ Telas Grandes: 1200px a cima
         font-size: 1.5vw;
     }
 
-      a.aporvalor {
+    div#duaspromocoes {
+      display: flex;
+      justify-content: center;
+    }
+
+    section.promocoes {
+      width: 250px;
+      margin: 40px 3vw;
+      display: inline-block;
+    }
+
+    a.aporvalor {
         width: 250px;
-      }
+    }
 
       .dropdown:hover .dropdown-menu {
         display: none;
@@ -91,13 +102,19 @@ Telas Grandes: 1200px a cima
         font-size: 1.2em;
       }
 
+      div#duaspromocoes {
+        display: flex;
+        justify-content: center;
+      }
+
       section.promocoes {
-        margin: 40px auto;
-        width: 400px;
+        width: 300px;
+        margin: 40px 40px;
+        display: inline-block;
       }
       
       section.promocoes > img {
-        width: 300px;
+        width: 200px;
         margin: auto;
       }
       
@@ -147,6 +164,11 @@ Telas Grandes: 1200px a cima
         font-size: 1.2vw;
       }
 
+      ul>li {
+        margin: 0px 3vw;
+        font-size: 17px;
+      }
+
       section#tituloefrase > h1{
         margin-top: 30px;
         font-size: 2.5em;
@@ -156,45 +178,47 @@ Telas Grandes: 1200px a cima
         font-size: 0.9em;
       }
 
-      ul>li {
-        margin: 0px 3vw;
-        font-size: 17px;
-      }
-
       h2.titulosde {
-        margin: 20px 0px;
+        margin: 30px 0px;
         margin-top: 40px;
         font-size: 1.3em;
       }
 
       a.aporvalor {
-        width: 400px;
-        font-size: 1.2em;
+        width: 300px;
+        padding: 2px 0px;
+        font-size: 1em;
+      }
+
+      div#duaspromocoes {
+        display: flex;
+        justify-content: center;
       }
 
       section.promocoes {
-        margin: 40px auto;
-        width: 500px;
+        width: 300px;
+        display: inline-block;
+        margin: 40px 40px;
       }
       
       section.promocoes > img {
-        width: 300px;
+        width: 200px;
         margin: auto;
       }
       
       section.promocoes > h2.titulo {
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.2em;
         padding: 10px 0px;
       }
       
       section.promocoes > h3.preco {
-        font-size: 1.5em;
+        font-size: 1.1em;
         margin-bottom: 3px;
       }
       
       section.promocoes > h3.precodebaixo {
-        font-size: 1.2em;
+        font-size: 1em;
         margin-bottom: 3px;
       }
       
