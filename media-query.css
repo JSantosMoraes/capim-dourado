@@ -436,9 +436,9 @@ Telas Grandes: 1200px a cima
       }
   
       section.promocoes_catalogo {
-        margin: 40px auto;
+        margin: 100px auto;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
-        width: 600px;
+        width: 500px;
         border: 1px solid rgba(0, 0, 0, 0.400);
         border-radius: 5px;
         padding: 10px;
@@ -446,7 +446,7 @@ Telas Grandes: 1200px a cima
       
       section.promocoes_catalogo > img {
         display: block;
-        width: 400px;
+        width: 300px;
         margin: auto;
       }
       
