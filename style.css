@@ -21,7 +21,7 @@
 
 body,html {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  height: 1970px;
+  min-height: 100vh;
 }
 
 a.bwhatsapp {
@@ -89,7 +89,7 @@ hr {
   border: none;
   height: 0.1px;
   width: 70%;
-  margin: 10px auto;
+  margin: 20px auto;
 
   background-color: #18272f58;
 }
@@ -234,12 +234,12 @@ div#divporvalor {
 }
 
 a.aporvalor {
-  margin: 5px;
+  margin: 10px;
   display: inline-block;
   text-align: center;
   width: 220px;
   color: #18272F;
-  font-size: 0.9em;
+  font-size: 1em;
   text-decoration: none;
   border: 1px solid #18272F;
 }
