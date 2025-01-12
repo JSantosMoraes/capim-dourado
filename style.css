@@ -30,7 +30,7 @@ a.bwhatsapp {
   position: fixed;
   display: block;
   right: 4%;
-  bottom: 4%;
+  bottom: 8%;
   width: 50px;
   height: 50px;
   
@@ -120,14 +120,13 @@ menu {
 
 ul {
   text-align: center;
-
   list-style: none;
 }
 
 ul>li {
   display: inline-block;
   text-align: center;
-  width: 80px;
+  width: 70px;
   margin: 0px 3vw;
   font-size: 14px;
 }
@@ -143,11 +142,21 @@ menu>ul>li>a {
   text-decoration: none;
 }
 
-menu>ul>li>a:hover {
-  display: inline-block;
+menu>ul>li>a::after {
+  content: " ";
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
 
-  color: rgb(218, 165, 32);
-  transition: .3s ease;
+  background-color: #CFB53B;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+menu>ul>li>a:hover::after{
+  width: 100%;
 }
 
 .dropdown-menu {
@@ -176,7 +185,7 @@ menu>ul>li>a:hover {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  transition: .3s ease;
+  transition: .3s ease-in-out;
 }
 
 #cat1:hover {
@@ -202,10 +211,11 @@ main>a>img {
   margin: auto;
   margin-top: 12%;
   width: 92%;
-  transition: .3s ease;
 
   border-radius: 2px;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+  transition: .3s ease;
+  cursor: default;
 }
 
 main>a>img:hover {
@@ -242,11 +252,12 @@ a.aporvalor {
   font-weight: 600;
   padding: 4px;
   display: inline-block;
-  text-align: center;
   width: 220px;
-  color: #18272F;
   font-size: 1em;
   text-decoration: none;
+
+  text-align: center;
+  color: #18272F;
   border: 1px solid #18272F;
 }
 
@@ -258,11 +269,12 @@ a.aporvalor:hover {
 
 section.promocoes {
   margin: 40px auto;
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
   width: 250px;
-  border: 1px solid rgba(0, 0, 0, 0.400);
-  border-radius: 5px;
   padding: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.400);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 section.promocoes > img {
@@ -274,8 +286,9 @@ section.promocoes > img {
 section.promocoes > h2.titulo {
   text-align: center;
   font-size: 1em;
-  border-top: 0.5px solid rgba(0, 0, 0, 0.300);
   padding: 10px 0px;
+
+  border-top: 0.5px solid rgba(0, 0, 0, 0.300);
 }
 
 section.promocoes > h3.preco {
@@ -300,21 +313,113 @@ section.promocoes > p.cartao {
 }
 
 section.promocoes > a.conferir {
-  text-decoration: none;
-  color: white;
-  background-color: green;
   padding: 7px;
   border-radius: 50px;
   font-size: 0.7em;
-  text-align: center;
   display: block;
+
+  text-decoration: none;
+  color: white;
+  background-color: green;
   transition: .3s ease;
+  text-align: center;
 }
 
 section.promocoes > a.conferir:hover {
   color: green;
   background-color: white;
   border: 1px solid green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div#linha1 {
+display: flex;
+margin-bottom: 30px;
+justify-content: center;
+align-items: center;
+}
+
+div#linha2 {
+display: flex;
+margin-bottom: 30px;
+justify-content: center;
+align-items: center;
+}
+
+div.secaodecompra_catalogo {
+display: block;
+justify-content: center;
+}
+
+section.promocoes_catalogo {
+width: 200px;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+
+border: 1px solid rgba(0, 0, 0, 0.400);
+box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+section.promocoes_catalogo > img {
+display: block;
+width: 135px;
+margin: auto;
+}
+
+section.promocoes_catalogo > h2.titulo {
+text-align: center;
+font-size: 1.1em;
+padding: 10px 0px;
+
+border-top: 0.5px solid rgba(0, 0, 0, 0.300);
+}
+
+section.promocoes_catalogo > h3.preco {
+text-align: center;
+font-weight: 600;
+font-size: 1em;
+margin-bottom: 3px;
+}
+
+section.promocoes_catalogo > h3.precodebaixo {
+text-align: center;
+font-weight: normal;
+font-size: 0.9em;
+margin-bottom: 3px;
+}
+
+section.promocoes_catalogo > p.cartao {
+text-align: center;
+margin-bottom: 10px;
+font-size: 0.8em;
+font-weight: 600;
+}
+
+section.promocoes_catalogo > a.conferir {
+text-decoration: none;
+color: white;
+background-color: green;
+padding: 7px;
+border-radius: 50px;
+font-size: 0.7em;
+text-align: center;
+display: block;
+transition: .3s ease;
+}
+
+section.promocoes_catalogo > a.conferir:hover {
+color: green;
+background-color: white;
+border: 1px solid green;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: none;
 }
 
 footer {
@@ -350,7 +455,7 @@ footer>p {
 
 footer>p>a:hover {
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0px 10px;
 }
 
@@ -364,7 +469,8 @@ section#pagfooter>h4 {
 }
 
 section#pagfooter>hr {
-  height: 2px;
+  height: 3px;
+  border-radius: 5px;
   background-color: #F4D65E;
   width: 17%;
 }
