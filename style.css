@@ -35,12 +35,27 @@ a.bwhatsapp {
   height: 50px;
   
   border-radius: 50%;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.481);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.481);
   background-color: white;
   background-image: url('imagens/iconewhatsapp.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: transform 0.5s ease-in-out;
+  /*transition: all 0.5s cubic-bezier(); veja mais em cubic-bezier.com*/
+}
+
+@keyframes girar360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+a.bwhatsapp:hover {
+  animation: girar360 0.5s;
 }
 
 header {
@@ -48,6 +63,7 @@ header {
   font-weight: 600;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 50px -12px;
 
   height: 10vw;
 
@@ -57,7 +73,7 @@ header {
 header > a.comprepelo {
   margin: 0px 30px;
   font-size: 2vw;
-  padding: 5px;
+  padding: 6px;
 
   border: 1px solid white;
   color: white;
@@ -213,7 +229,7 @@ main>a>img {
   width: 92%;
 
   border-radius: 2px;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 50px -12px;
   transition: .3s ease;
   cursor: default;
 }
@@ -314,7 +330,7 @@ section.promocoes > p.cartao {
 
 section.promocoes > a.conferir {
   padding: 7px;
-  border-radius: 50px;
+  border-radius: 5px;
   font-size: 0.7em;
   display: block;
 
@@ -329,11 +345,6 @@ section.promocoes > a.conferir:hover {
   color: green;
   background-color: white;
   border: 1px solid green;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 div#linha1 {
@@ -405,7 +416,7 @@ text-decoration: none;
 color: white;
 background-color: green;
 padding: 7px;
-border-radius: 50px;
+border-radius: 5px;
 font-size: 0.7em;
 text-align: center;
 display: block;
@@ -429,7 +440,7 @@ footer {
   margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.252);
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.164);
 
 }
 
@@ -438,19 +449,16 @@ footer>p {
   margin: auto;
   border-radius: 5px;
   font-weight: 300;
+  color: white;
+  text-decoration: none;
+  transition: .3s ease;
+  font-weight: 500;
 }
 
 footer>p>a {
   color: white;
   text-decoration: none;
   transition: .3s ease;
-}
-
-footer>p {
-  color: white;
-  text-decoration: none;
-  transition: .3s ease;
-  font-weight: 500;
 }
 
 footer>p>a:hover {
