@@ -121,6 +121,33 @@ Telas Grandes: 1200px a cima
         display: none;
     }
 
+    section#confooter>div#direitos {
+      display: block;
+      background-color: #FEEDE4;
+      margin: 0;
+      padding: 0;
+      height: 100px;
+    }
+    
+    section#confooter>div#direitos>h1 {
+      padding-top: 15px;
+      text-align: center;
+      font-size: 1.2em;
+      width: 200px;
+      margin: auto;
+    
+      font-weight: bolder;
+      font-family: 'Bad Script', Courier, monospace;
+      color: rgb(218, 165, 32);
+    }
+    
+    section#confooter>div#direitos>p {
+      padding-top: 10px;
+      text-align: center;
+      display: block;
+      font-size: 0.8em;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -292,6 +319,33 @@ Telas Grandes: 1200px a cima
       .dropdown:hover .dropdown-menu {
         display: block;
       }
+
+      section#confooter>div#direitos {
+        display: block;
+        background-color: #FEEDE4;
+        margin: 0;
+        padding: 0;
+        height: 100px;
+      }
+      
+      section#confooter>div#direitos>h1 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 1.2em;
+        width: 200px;
+        margin: auto;
+      
+        font-weight: bolder;
+        font-family: 'Bad Script', Courier, monospace;
+        color: rgb(218, 165, 32);
+      }
+      
+      section#confooter>div#direitos>p {
+        padding: 5px 0px;
+        text-align: center;
+        display: block;
+        font-size: 0.8em;
+      }
     
 }
 
@@ -459,6 +513,33 @@ Telas Grandes: 1200px a cima
       
       .dropdown:hover .dropdown-menu {
         display: block;
+      }
+
+      section#confooter>div#direitos {
+        display: block;
+        background-color: #FEEDE4;
+        margin: 0;
+        padding: 0;
+        height: 100px;
+      }
+      
+      section#confooter>div#direitos>h1 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 1.3em;
+        width: 200px;
+        margin: auto;
+      
+        font-weight: bolder;
+        font-family: 'Bad Script', Courier, monospace;
+        color: rgb(218, 165, 32);
+      }
+      
+      section#confooter>div#direitos>p {
+        padding: 5px 0px;
+        text-align: center;
+        display: block;
+        font-size: 0.9em;
       }
 
 }
