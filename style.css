@@ -462,7 +462,6 @@ footer>p>a {
 }
 
 footer>p>a:hover {
-  border: 1px solid white;
   border-radius: 5px;
   padding: 0px 10px;
 }
